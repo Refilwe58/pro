@@ -1,0 +1,200 @@
+
+<div class="right-section">
+    <div class="heading">
+      <h1> Latest News</h1>
+     </div>
+     <pre></pre>
+
+
+  <mdb-carousel [controls]="true" class="carousel " >
+      <mdb-carousel-item   *ngFor='let us of readNews'>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card1 mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">{{us.news_title}}</h5>
+                    <p class="card-text">
+                      {{us.news_description}}
+                    </p>
+
+
+                    <p class="card-text">
+                      <small class="text-muted">{{us.news_dateStamp}}</small>
+                    </p>
+                    <a routerLink="/aboutsingle"> <button type="button" class="btn btn-primary">READ MORE</button> </a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="col">
+            <div class="card2 mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">News Title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                    <a routerLink="/aboutsingle"> <button type="button" class="btn btn-primary">READ MORE</button> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            <div class="card3 mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">News8 Title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                         <a routerLink="/aboutsingle"> <button type="button" class="btn btn-primary">READ MORE</button> </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </mdb-carousel-item>
+
+      <mdb-carousel-item>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card1 mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">News Title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                    <a routerLink="/aboutsingle"> <button type="button" class="btn btn-primary">READ MORE</button> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            <div class="card2 mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">News Title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                    <a routerLink="/aboutsingle"> <button type="button" class="btn btn-primary">READ MORE</button> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            <div class="card3 mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
+                    alt="Trendy Pants and Shoes"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">News Title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                    <a routerLink="/aboutsingle"> <button type="button" class="btn btn-primary">READ MORE</button> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </mdb-carousel-item>
+
+
+
+
+
+
+
+

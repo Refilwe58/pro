@@ -1,0 +1,24 @@
+
+
+  .sections{
+    display: flex;
+    
+  }
+  .sections .left-section{
+    width: 20%;
+    border: 1px solid rgb(228, 4, 4);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    background-color: rgb(4, 0, 255);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .left-section a > h3{
+    padding-left: 40px;
+    margin-top: 70px;
+    color: rgb(255, 145, 0);
+  }
+  

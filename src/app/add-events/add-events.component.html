@@ -1,0 +1,60 @@
+
+<div class="header1">
+
+    <h1>
+          </h1>
+    <div class="header-description">
+      <p></p>
+    </div>
+</div>
+<div class="banner">
+    <h5>ADD LATEST EVENTS.
+    </h5>
+  </div>
+ <br><br><br><br><div class="container">
+    <form [formGroup]="formGroup" (ngSubmit)="onUsers()" >
+        <div class="col-center-4 "  >
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-control">EVENT NAME</label>
+                <input type="text"  id="event_name" name="event_name" formControlName ="event_name" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-control">DECSRIPTION</label>
+                <input type="text" id="event_description" name= "event_description"formControlName ="event_location" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-control">DATE</label>
+                <input type="date" id="event_date" name="event_date" formControlName ="event_date" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-control">TIME</label>
+                <input type="time" id="event_date" name="event_date" formControlName ="event_time" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">LOCATION</label>
+                <input type="text"  id="event_location" name="event_location" formControlName ="event_description" placeholder="">
+              </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="wrapper">
+            <div [innerHtml]='msg' *ngIf="msg" style="color: red;"></div>
+            <div><img [src]="url" *ngIf="url"></div>
+
+
+
+
+           <!-- <p>
+                <input type="file" (change)="selectFile($event)">
+            </p>-->
+
+                </div>
+            <div class="text-center">
+                <br><br>  <input class="btn btn-dark btn-s btn-block" type="submit" value="upload" />
+
+        </div>
+
+        </form>
+
+  </div>

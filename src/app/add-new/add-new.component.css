@@ -1,0 +1,47 @@
+.header1{ 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    opacity: 60%; 
+    height:300px;
+    display: flex;
+    background: url("/assets/image/images.jpeg");
+    background-position: center top;
+
+   
+  }
+  .header1 >h1{
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+    background-color:blue;
+    border-radius: 10px;
+    
+  }
+  .banner {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    z-index: 1;
+    background-color:blue;
+    height: 60px;
+   
+    
+  }
+  input{
+    width:100%;
+    padding:12px 20px;
+    border:2px solid blue;
+  }
+  input[id = description]{
+    width:100%;
+    padding:80px 20px;
+    box-sizing: border-box;
+    
+  }
+  .wrapper img{
+    width: 20px;
+    height: 2px;
+
+  }

@@ -1,0 +1,209 @@
+
+ 
+  
+  /*********************/
+   /*Heading Title1*/
+   /*********************/
+   .heading-title1 h1{
+    font-size: 36px;
+    position: relative;
+    display:inline-block;
+  }
+ 
+  .heading-title1 h1::after{
+    position: absolute;
+    bottom: -10px;
+    content: " ";
+    width:218px;
+    background:black;
+    height:2px;
+    left: 0%;
+    right: 0%;
+    background: red;
+  
+  }
+
+  .heading-title1{
+    margin-top: 40px ;
+    display: flex;
+    margin-left: 520px;
+    
+  }
+
+
+
+
+   /*********************/
+   /*Heading Title2*/
+   /*********************/
+   .heading-title2 h1{
+    font-size: 36px;
+    position: relative;
+    display:inline-block;
+  }
+ 
+  .heading-title2 h1::after{
+    position: absolute;
+    bottom: -10px;
+    content: " ";
+    width:190px;
+    background:black;
+    height:2px;
+    left: 0%;
+    right: 0%;
+    background: red;
+  
+  }
+
+  .heading-title2{
+    margin-top: 40px ;
+    display: flex;
+    margin-left: 520px;
+    
+  }
+
+
+
+   /*********************/
+   /*Heading Title3*/
+   /*********************/
+   .heading-title3 h1{
+    font-size: 36px;
+    position: relative;
+    display:inline-block;
+  }
+ 
+  .heading-title3 h1::after{
+    position: absolute;
+    bottom: -10px;
+    content: " ";
+    width:218px;
+    background:black;
+    height:2px;
+    left: 0%;
+    right: 0%;
+    background: red;
+  
+  }
+
+  .heading-title3{
+    margin-top: 40px ;
+    display: flex;
+    margin-left: 520px;
+    
+  }
+
+
+
+
+
+
+    
+ 
+
+ /*********************/
+   /*banner after image-banner section*/
+   /*********************/
+  .banner{
+    background-color: gray;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .banner h5{
+    font-size: 20px;
+    position: relative;
+    display:inline-block;
+  }
+
+
+/*********************/
+   /*sections*/
+   /*********************/
+
+  .sections{
+    display: flex;
+    
+  }
+
+  /*********************/
+   /*Left section SideNav*/
+   /*********************/
+  .sections .left-section{
+    width: 20%;
+    border: 1px solid rgb(228, 4, 4);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    background-color: rgb(4, 0, 255);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .left-section a > h3{
+    padding-left: 40px;
+    margin-top: 70px;
+    color: rgb(255, 145, 0);
+  }
+  
+  /*********************/
+   /*Right section*/
+   /*********************/
+  .right-section{
+    width: 100%;
+    margin-left: -3px;  
+
+  }
+
+   
+
+  ul{
+    list-style: none;
+    font:bold;
+    width: 100%;
+    
+  }
+  
+  ul li,a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a:hover{
+    color: red;
+  }
+  a:active{
+    color: red;
+  }
+  a[tabindex]:focus {
+    color:red;
+    outline: none;
+  }
+
+  
+
+  .card1  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    text-align: center;
+    margin-left: 10px;
+    
+    
+    
+  }
+
+
+  .card-title{
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  

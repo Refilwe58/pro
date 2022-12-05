@@ -1,0 +1,25 @@
+.heading1 h1{
+    font-size: 20px;
+    position: relative;
+    display:inline-block;
+  }
+  
+  
+  .heading1 h1::after{
+    position: absolute;
+    bottom: -10px;
+    content: " ";
+    width:120px;
+    background:black;
+    height:2px;
+    left: 0%;
+    right: 0%;
+    background: red;
+  
+  }
+  
+  .heading1{
+     
+    display: flex;
+    justify-content: center;
+  }

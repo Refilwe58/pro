@@ -1,0 +1,43 @@
+.heading1 h1{
+    font-size: 36px;
+    position: relative;
+    display:inline-block;
+  }
+  
+  
+  .heading1 h1::after{
+    position: absolute;
+    bottom: -10px;
+    content: " ";
+    width:220px;
+    background:black;
+    height:2px;
+    left: 0%;
+    right: 0%;
+    background: red;
+  
+  }
+  
+  .heading1{
+    margin-top: 40px ;
+    display: flex;
+    justify-content: center;
+  }
+
+.card-body{
+    text-align: center;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #1100ff;
+}
+
+.btn {
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #0026ff; /* Green */
+    color: white;
+  }

@@ -1,0 +1,49 @@
+
+<div class="header1">
+
+    <h1>
+          </h1>
+    <div class="header-description">
+      <p></p>
+    </div>
+</div>
+<div class="banner">
+    <h5>ADD LATEST NEWS. </h5>
+  </div>
+ <br><br><br><div class="container">
+    <form class="bannerContainer" [formGroup]="newsGroup" (ngSubmit)="news()">
+        <div class="col-center-4 "  >
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">News Title</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" formControlName ="news_title" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">News Description</label>
+                <input type="text" class="form-control" id="description" placeholder="" formControlName ="news_description">
+              </div>
+
+
+            </div>
+
+            <br>
+
+            <div class="wrapper">
+            <div [innerHtml]='msg' *ngIf="msg" style="color: red;"></div>
+            <div><img [src]="url" *ngIf="url"></div>
+
+
+
+
+           <!-- <p>
+                <input type="file" (change)="selectFile($event)">
+            </p>-->
+
+                </div>
+            <div class="text-center">
+                <br><br><button type="submit" class="btn btn-outline-primary">UPLOAD </button>  
+
+        </div>
+
+        </form>
+
+  </div>

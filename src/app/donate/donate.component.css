@@ -1,0 +1,75 @@
+
+ /*********************/
+   /*banner after image-banner section*/
+   /*********************/
+   .banner{
+    background-color: grey;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .banner h5{
+    font-size: 20px;
+    position: relative;
+    display:inline-block;
+  }
+
+
+
+  .card-body{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ 
+  .heading-donate h1{
+    font-size: 36px;
+    position: relative;
+    display:inline-block;
+  }
+  
+  
+  .heading-donate h1::after{
+    position: absolute;
+    bottom: -10px;
+    content: " ";
+    width:260px;
+    background:black;
+    height:2px;
+    left: 0%;
+    right: 0%;
+    background: red;
+  
+  }
+  
+  .heading-donate{
+    margin-top: 40px ;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #1100ff;
+    margin-left: 900px;
+  
+}
+
+.btn {
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #0026ff; /* blue */
+    color: white;
+  }
+  
+
+ 
